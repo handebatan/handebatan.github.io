@@ -83,7 +83,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: rgb(162, 103, 103);
+		/* this is when screen get small the color of the bottom  */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,9 +99,10 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: #4C4C4C;
+		/* text color of the  */
 		font-family: "Lato", sans-serif;
-		font-size: 16pt;
+		font-size: 16pt; 
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -113,11 +115,12 @@ input, select, textarea {
 		border-bottom: solid 1px #e4e4e4;
 		color: inherit;
 		text-decoration: none;
+
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #20020f !important;
+			color: #777 !important;
 		}
 
 	strong, b {
@@ -134,7 +137,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: rgb(53, 11, 11);
+		/* header colors */
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1785,7 +1789,8 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #20020f;
+		color: #c35585;
+		/* about me color the major */
 		font-size: 3.5em;
 	}
 
@@ -2700,14 +2705,15 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #20020f;
+		background: #926b6a;
+		/* this is the color of the side area */
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 23em;
+		width: 20em;
 		right: 0;
 	}
 
@@ -2772,7 +2778,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #0f5a46;
 				}
 
 		#header > nav {
@@ -2789,7 +2795,8 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #F7CAC9;
+					/* this is the higliht border color of the publication */
 					display: block;
 					padding: 0;
 				}
@@ -2807,8 +2814,10 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #20020f !important;
+							background: #57687c;
+							/* this is teh color of the selected bar */
+							color: #b4c7dd !important; 
+							/* this is for the colors on the bar */
 						}
 
 					#header > nav ul li:first-child {
@@ -2820,13 +2829,16 @@ input, select, textarea {
 	#wrapper {
 		background: #fff;
 		padding-right: 23em;
+		/*this is 0 it comes over the bar in the right */
 	}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #c38e8e;
+		/* this is the middle bar color */
 	}
+
 
 		#main > section > .container {
 			padding: 6em 0 4em 0;
@@ -2847,7 +2859,7 @@ input, select, textarea {
 	}
 
 		#footer .copyright {
-			line-height: 1em;
+			line-height: 1 em;
 			list-style: none;
 			padding: 0;
 		}
