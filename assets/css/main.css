@@ -138,7 +138,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: rgb(53, 11, 11);
-		/* header colors */
+		/* this is the header colors */
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -2407,7 +2407,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #20020f;
+				background: #98b5b4;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2713,7 +2713,8 @@ input, select, textarea {
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 20em;
+		width: 19em;
+		/* this is the size of the right bar */
 		right: 0;
 	}
 
@@ -2778,7 +2779,8 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #0f5a46;
+					color: rgb(53, 11, 11);
+					/* this is the logies on the righ botton */
 				}
 
 		#header > nav {
@@ -2814,7 +2816,8 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #57687c;
+							background Transparent ;
+							 /* #57687c; */
 							/* this is teh color of the selected bar */
 							color: #b4c7dd !important; 
 							/* this is for the colors on the bar */
@@ -2851,9 +2854,11 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: transparent;
+		/* this is the color of the footer */
 		border-top: 0;
-		color: #c0c0c0;
+		color: #000000;
+		/* this is the color of the text in the footer */
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
@@ -3042,7 +3047,8 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
+				background: #926b6a;
+				/* this is the top bar  */
 				color: #fff;
 				min-width: 320px;
 			}
@@ -3088,8 +3094,10 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #20020f;
-						color: #ffffff;
+						background: #926b6a;
+						/* this is the color of the top block to opent he side */
+						color: rgb(53, 11, 11);
+						/* this is the lines in the top one */
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
