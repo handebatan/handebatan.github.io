@@ -2816,9 +2816,8 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background Transparent ;
-							 /* #57687c; */
-							/* this is teh color of the selected bar */
+							background: transparent;
+							/* this is the color of the selected bar */
 							color: #b4c7dd !important; 
 							/* this is for the colors on the bar */
 						}
