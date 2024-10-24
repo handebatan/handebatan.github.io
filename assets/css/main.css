@@ -185,7 +185,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 1em;
+		margin-bottom: 0;
 	}
 
 	p {
@@ -1765,7 +1765,8 @@ input, select, textarea {
 	}
 
 	header {
-		margin: 0 0 1em 0;
+		/* this is the bottong spacing between the title and the subtitle under images */
+		margin: 0 0 0 0;
 	}
 
 		header > p {
@@ -2217,7 +2218,7 @@ input, select, textarea {
 			}
 
 		#header h1 {
-			color: #fff;
+			color: #8e8686;
 			font-size: 3em;
 			line-height: 1em;
 		}
