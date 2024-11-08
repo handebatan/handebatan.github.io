@@ -162,7 +162,7 @@ input, select, textarea {
 
 		a:hover {
 			/* when hovering over text */
-			color: #ef8376;
+			color: #a1002bd9;
 			border-bottom-color: transparent;
 		}
 
@@ -1800,10 +1800,12 @@ input, select, textarea {
 			width: 100%;
 		}
 
+
+		 /* image padding */
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 .5em 0;
+			margin: .5em .5em .5em .5em;
 		}
 
 		.image.left {
@@ -1825,7 +1827,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		padding-left: 1em;
+		padding-left: 0em;
 	}
 
 		ul li {
@@ -1940,7 +1942,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #a1002bd9;
 				}
 
 /* Form */
